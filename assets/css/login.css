@@ -1,0 +1,73 @@
+body{
+	font-family: 'Open Sans';
+	color:#fff;
+}
+
+.div-line{
+	background-color: #0f1c2f;
+	opacity: 0.6;
+	width:89%;
+	z-index:1;
+	height:30%;
+	position: absolute;
+	top:30%;
+	left:0;
+	margin:0;
+	padding:50px 0px 10px 150px;
+	font-family: Candara;
+}
+
+.huah{
+	color:white;
+}
+
+.container{
+	z-index:3;
+	width:25%;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(50%, -50%);
+	background: #0d2135;
+	border-radius: 2px;
+	box-shadow:0 4px 7px 0 rgba(0,0,0,0.16),0 3px 10px 0 rgba(0,0,0,0.12)
+}
+
+.login{
+	margin:50px;
+}
+
+.login img{
+	width:60%;
+	height:60%;
+}
+
+input[type=submit]{
+	background:#3295fa;
+	border:none;
+	color:white;
+	padding:8px 0;
+	width:100%;
+	cursor:pointer;
+}
+
+input[type=text]{
+	font-size: 12px;
+	padding:8px 12px;
+	width:100%;
+	border:none;
+} 
+
+input[type=password]{
+	font-size: 12px;
+	padding:8px 12px;
+	width:100%;
+	border:none;
+}
+
+select{
+	font-size: 12px;
+	padding:8px 12px;
+	width:100%;
+	border:none;
+}
